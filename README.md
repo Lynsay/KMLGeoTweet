@@ -1,4 +1,4 @@
-# Generating KML From Tweets
+# KMLGeoTweet
 
 Lynsay A. Shepherd, December 2014
 
