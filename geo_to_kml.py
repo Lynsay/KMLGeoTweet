@@ -1,13 +1,17 @@
-#Downloaded my entire Twitter archive.
-#Ran a modified script from https://github.com/mshea/Parse-Twitter-Archive to parse the archive.  This was written by  Michael E. Shea at http://mikeshea.net/ This extracted all geolocation tweets- dumped these into CSV format.
-#My modified script is available from- https://github.com/Lynsay/Parse-Twitter-ArchiveCSV format
+#!/usr/bin/env python
 
-
-#This script converts the CSV to KML- open with Google Earth
-#Written by Lynsay A. Shepherd
-#December 2014
-#Version 1.0
-#Licensed Under the MIT License (MIT)
+'''
+	File: geo_to_kml.py
+	Version: 1.0
+	Date: December 2014
+	Author: Lynsay A. Shepherd
+	License: MIT License (MIT)
+	
+	Description: This script converts the CSV to KML- open with Google Earth.
+	#Downloaded my entire Twitter archive.
+	#Ran a modified script from https://github.com/mshea/Parse-Twitter-Archive to parse the archive.  This was written by  Michael E. Shea at http://mikeshea.net/ This extracted all geolocation tweets- dumped these into CSV format.
+	#My modified script is available from- https://github.com/Lynsay/Parse-Twitter-ArchiveCSV
+'''
 
 import csv
 import xml.etree.cElementTree as ET
